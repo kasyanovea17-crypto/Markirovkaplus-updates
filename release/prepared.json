@@ -1,30 +1,30 @@
 {
-  "version": "1.0.62",
-  "source_commit": "8914696613b91571aa24dc793e7a007d2c711366",
-  "installer_sha256": "a934abde3659f20ec07d5995b40f58030532ccfd44f01de3e990a3b4e50d344d",
-  "archive_size": 176611697,
-  "archive_sha256": "36132017ce1f3d77c3f144a1af813f345fe5651bf8adf3e8ec25471bc2d3b242",
-  "archive_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-9f8c-8210-a4ce-86fe9bc88bd3/raw?se=2026-10-07T04%3A28%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=099a3540-c1d1-4c58-b9f9-1842ec0f2adc&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T04%3A01%3A24Z&ske=2026-10-08T04%3A01%3A24Z&sks=b&skv=2026-02-06&sig=WEn3CkjXhyGTbyPX3sYz3SHrRJoDzy1EAHnoSqG2t2w%3D",
+  "version": "1.0.63",
+  "source_commit": "b1714c604ab288c1a673f4d5599bbebe2258bf14",
+  "installer_sha256": "589a9b593dcd2dca6ee4be1dbcaa0aa81b34a3a4367defeedfc7748f3f197e96",
+  "archive_size": 176437289,
+  "archive_sha256": "dfc9e2d4224156fe41e399fe8a8184ddfcab04538ffff9a3b38a0e03f190b4aa",
+  "archive_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-6318-8210-811f-f42f0d5b85fc/raw?se=2026-10-07T05%3A06%3A05Z&sp=r&sv=2026-02-06&sr=b&scid=3dfce577-363d-455e-a348-e20570960a34&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T00%3A50%3A03Z&ske=2026-10-08T00%3A50%3A03Z&sks=b&skv=2026-02-06&sig=e%2Be%2BB5gj3263nXGPZ/8gnWnlgi7szRbd8YISpKR%2BSeE%3D",
   "assets": {
     "MarkirovkaPlusInstaller.exe": {
-      "size": 177067270,
-      "sha256": "a934abde3659f20ec07d5995b40f58030532ccfd44f01de3e990a3b4e50d344d"
+      "size": 176894855,
+      "sha256": "589a9b593dcd2dca6ee4be1dbcaa0aa81b34a3a4367defeedfc7748f3f197e96"
     },
     "latest.json": {
-      "size": 1436,
-      "sha256": "79f10b3b800c5c1c4052ff15a66897dbf05c13f0b774cf638305ec8b28cdfe1a"
+      "size": 1545,
+      "sha256": "2a8ecbac4a6221f6b8a50508e904edf77a1e4519ed8a67221380c681bdb38bf6"
     },
     "build_metadata.json": {
       "size": 349,
-      "sha256": "498d13af11d57744688499e9b77a4cd3dc98537ffc6ef1d43857375d8eb90b3e"
+      "sha256": "579973165fb523d5d4231d68d245c954533f92d1f3254d21e666dff1b00dc63c"
     },
     "BUILD_VERIFICATION.txt": {
       "size": 2049,
-      "sha256": "06c806ff01a1ac21c7ea7f67b770cdcd71f38d3ba5db79b3e52d1f2ba3ff6eaa"
+      "sha256": "b94e0ffab8f3cb0cb56e18b254fbce1ca5af6a0066c07641471d4b2b212c82ef"
     },
     "FROZEN_SMOKE.txt": {
       "size": 578,
-      "sha256": "6bf38c91d52fe5fbeabe6a9a7f40224a0bb82e9a1b324374d3d964d4c54a79e4"
+      "sha256": "34630196de5d006b61972f9a134631ec34f23f065b96897ee236a42affad66d5"
     }
   }
 }
