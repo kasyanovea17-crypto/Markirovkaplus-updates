@@ -1,0 +1,22 @@
+{
+  "version": "1.0.62",
+  "installerUrl": "MarkirovkaPlusInstaller.exe",
+  "sha256": "a934abde3659f20ec07d5995b40f58030532ccfd44f01de3e990a3b4e50d344d",
+  "size": 177067270,
+  "notes": [
+    "Облегчённый интерфейс по умолчанию: отключены декоративные анимации и размытия; полное оформление доступно переключателем.",
+    "Авторизация Astral выполняется в фоне и больше не задерживает вход в ЧЗ; устаревшие результаты отбрасываются при смене сессии.",
+    "Опрос состояния использует кеш настроек без повторной расшифровки секретов.",
+    "Поддерживаются прежний и новый ключи лицензирования; новый реестр licenses-v2 отделён от старого.",
+    "Первое обновление со старой версии после смены ключа устанавливается вручную."
+  ],
+  "mandatory": false,
+  "installerArgs": [
+    "/SILENT",
+    "/NORESTART",
+    "/CLOSEAPPLICATIONS"
+  ],
+  "exitAppAfterLaunch": true,
+  "signature": "VWSJkagrdwqqBlqOHkuS3zNiuOqWJ4x4lKPJc9YVjg8AGxi3mrOP9HT2lILjqDA9nwj614gHbwwemSIRLeCFCg",
+  "signatureAlg": "ed25519"
+}

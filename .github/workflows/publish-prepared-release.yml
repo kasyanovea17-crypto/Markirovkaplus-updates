@@ -1,0 +1,37 @@
+name: Publish verified prepared Windows release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - release/prepared.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prepared-release-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - name: Install signature verifier
+        run: python -m pip install cryptography==46.0.7
+      - name: Test publisher
+        run: python -m unittest discover -s tests -v
+      - name: Verify, publish draft, and verify public downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/publish_prepared.py release/prepared.json
