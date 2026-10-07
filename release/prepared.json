@@ -1,0 +1,30 @@
+{
+  "version": "1.0.62",
+  "source_commit": "8914696613b91571aa24dc793e7a007d2c711366",
+  "installer_sha256": "a934abde3659f20ec07d5995b40f58030532ccfd44f01de3e990a3b4e50d344d",
+  "archive_size": 176611697,
+  "archive_sha256": "36132017ce1f3d77c3f144a1af813f345fe5651bf8adf3e8ec25471bc2d3b242",
+  "archive_url": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-9f8c-8210-a4ce-86fe9bc88bd3/raw?se=2026-10-07T04%3A28%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=099a3540-c1d1-4c58-b9f9-1842ec0f2adc&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T04%3A01%3A24Z&ske=2026-10-08T04%3A01%3A24Z&sks=b&skv=2026-02-06&sig=WEn3CkjXhyGTbyPX3sYz3SHrRJoDzy1EAHnoSqG2t2w%3D",
+  "assets": {
+    "MarkirovkaPlusInstaller.exe": {
+      "size": 177067270,
+      "sha256": "a934abde3659f20ec07d5995b40f58030532ccfd44f01de3e990a3b4e50d344d"
+    },
+    "latest.json": {
+      "size": 1436,
+      "sha256": "79f10b3b800c5c1c4052ff15a66897dbf05c13f0b774cf638305ec8b28cdfe1a"
+    },
+    "build_metadata.json": {
+      "size": 349,
+      "sha256": "498d13af11d57744688499e9b77a4cd3dc98537ffc6ef1d43857375d8eb90b3e"
+    },
+    "BUILD_VERIFICATION.txt": {
+      "size": 2049,
+      "sha256": "06c806ff01a1ac21c7ea7f67b770cdcd71f38d3ba5db79b3e52d1f2ba3ff6eaa"
+    },
+    "FROZEN_SMOKE.txt": {
+      "size": 578,
+      "sha256": "6bf38c91d52fe5fbeabe6a9a7f40224a0bb82e9a1b324374d3d964d4c54a79e4"
+    }
+  }
+}
